@@ -1,0 +1,106 @@
+{
+    "Data": [
+            {
+                "Choice situation": 5.0,
+                "mode_1":{
+                    "mode":"Bus Type 1",
+                    "ivtt": 45,
+                    "tcost": 19,
+                    "walktime": 7,
+                    "waittime": 11,
+                    "tvariab": 9,
+                    "trans": 1,
+                    "crowd": 1,
+                    "serv": 1
+                } ,
+                "mode_2":{
+                    "mode":"Bus Type 2",
+                    "ivtt": 37,
+                    "tcost": 45,
+                    "walktime": 6,
+                    "waittime": 10,
+                    "tvariab": 7,
+                    "trans": 0,
+                    "crowd": 4,
+                    "serv": 2
+                },
+                "mode_3":{
+                    "mode":"Bus Type 3",
+                    "ivtt": 27,
+                    "tcost": 83,
+                    "walktime": 6,
+                    "waittime": 10,
+                    "tvariab": 8,
+                    "trans": 0,
+                    "crowd": 3,
+                    "serv": 3
+                } ,
+                "mode_4": {
+                    "mode":"Metro / Train",
+                    "ivtt": 21,
+                    "tcost": 33,
+                    "walktime": 4,
+                    "waittime": 9,
+                    "tvariab": 2,
+                    "trans": 0,
+                    "crowd": 4,
+                    "serv": 0
+                },
+                "mode_5":{
+                    "mode":"Ride-hailing Car",
+                    "ivtt": 22,
+                    "tcost": 231,
+                    "walktime": 3,
+                    "waittime": 6,
+                    "tvariab": 8,
+                    "trans": 0,
+                    "crowd": 0,
+                    "serv": 0
+                } ,
+                "mode_6": {
+                    "mode":"Ride-hailing Two-wheeler",
+                    "ivtt": 27,
+                    "tcost": 25,
+                    "walktime": 6,
+                    "waittime": 3,
+                    "tvariab": 6,
+                    "trans": 0,
+                    "crowd": 0,
+                    "serv": 0
+                },
+                "mode_7": {
+                    "mode":"Auto",
+                    "ivtt": 31,
+                    "tcost": 122,
+                    "walktime": 3,
+                    "waittime": 6,
+                    "tvariab": 9,
+                    "trans": 0,
+                    "crowd": 0,
+                    "serv": 0
+                },
+                "mode_8": {
+                    "mode":"Own Car",
+                    "ivtt": 20,
+                    "tcost": 51,
+                    "walktime": 0,
+                    "waittime": 0,
+                    "tvariab": 14,
+                    "trans": 0,
+                    "crowd": 0,
+                    "serv": 0
+                },
+                "mode_9": {
+                    "mode":"Own Two-wheeler",
+                    "ivtt": 27,
+                    "tcost": 26,
+                    "walktime": 0,
+                    "waittime": 0,
+                    "tvariab": 5,
+                    "trans": 0,
+                    "crowd": 0,
+                    "serv": 0
+                }
+            }
+   ]
+}

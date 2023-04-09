@@ -3,8 +3,20 @@ import { Link } from "react-router-dom";
 import "./Page1.css";
 
 const Page1 = () => {
-  const [means, setMeans] = useState();
-  const [dist, setDist] = useState();
+  const [means, setMeans] = useState("");
+  const [dist, setDist] = useState("");
+  let item5;
+  if(means !== "" && dist !== ""){
+    item5 = (
+          <Link to="/Page2" state={{ means: means, dist: dist }} style={{color:"white",fontWeight:"bold"}}>
+            Submit
+          </Link>
+    )
+  }else{
+    item5 = (
+      <span style={{color:"white"}}>Submit</span>
+    )
+  }
   return (
     <>
       <div className="container">
@@ -154,9 +166,7 @@ const Page1 = () => {
 
           }}
         >
-          <Link to="/Page2" state={{ means: means, dist: dist }} style={{color:"white",fontWeight:"bold"}}>
-            Submit
-          </Link>
+          {item5}
         </button>
       </div>
     </>

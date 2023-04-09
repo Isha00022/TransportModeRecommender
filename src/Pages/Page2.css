@@ -38,7 +38,7 @@ td {
   background-color: rgb(205, 235, 253);
 }
 
-form {
+/* form {
   display: flex;
   gap: 5px;
 }
@@ -50,7 +50,7 @@ form td:last-child {
 
 form * {
   font-size: 28px;
-}
+} */
 
 .h1{
     font-size: 13px;
